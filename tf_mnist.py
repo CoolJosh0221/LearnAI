@@ -30,7 +30,7 @@ test_images = test_images.astype("float32") / 255
 tf.compat.v1.enable_eager_execution()
 
 # Train the model
-model.fit(train_images, train_labels, epochs=5, batch_size=128)
+model.fit(train_images, train_labels, epochs=5, batch_size=124)
 
 # Test the model
 test_loss, test_acc = model.evaluate(test_images, test_labels)
