@@ -1,1 +1,10 @@
 F2379/
+F2379_Bonus-B/
+__pycache__
+*.tar.gz
+images-ml/dogs-vs-cats/cats_vs_dogs_small
+images-ml/dogs-vs-cats/train
+images-ml/segmentation/semantic/annotations
+images-ml/segmentation/semantic/images
+.DS_Store
+*.keras

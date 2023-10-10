@@ -1,0 +1,12 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - conda
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - cudatoolkit=11.2
+prefix: /home/josh/miniconda3
